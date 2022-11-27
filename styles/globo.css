@@ -1,0 +1,192 @@
+.banner {
+    background: var(--neutral10);
+    height: 300px;
+}
+
+.banner_elementos {
+    max-width: 1024px;
+    padding: 65px 40px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.conteudo_pagina_ind {
+    max-width: 1024px;
+    padding: 65px 40px;
+    align-items: center;
+    margin: auto;
+}
+
+.imagem_banner {
+    background-image: url(../img/globo_ind.png);
+    height: 120px;
+    width: 120px;
+    margin-right: 48px;
+}
+
+.chamada_banner {
+    flex: 1 1 auto;
+    padding-right: 20px;
+}
+
+.chamada_banner_elementos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    align-items: flex-end;
+}
+
+.empresa_vaga .empresa_banner {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    margin-bottom: 4px;
+    color: var(--neutral30);
+}
+
+.empresa_vaga .cargo_banner {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: var(--black);
+}
+
+.divisor_banner {
+    background-color: var(--neutral20);
+    height: 1px;
+    margin-bottom: 24px
+}
+
+.botao_banner {
+    padding: 16px;
+    color: var(--white);
+    background: #3369F6;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.div_botao_banner {
+    align-items: flex-end;
+}
+
+.tag_banner {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.tag_banner .tag_1_banner {
+    background: #F3F6FF;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+.tag_banner .tag_1_banner {
+    color: var(--PrimaryBlue);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 19px;
+}
+
+.tag_banner .tag_2_banner {
+    background: #F3F6FF;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+}
+
+.tag_banner .tag_2_banner {
+    color: var(--PrimaryBlue);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 19px;
+}
+
+.titulo_pagina_ind {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: var(--PrimaryBlue);
+    padding-bottom: 24px;
+}
+
+.texto_pagina_ind {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: var(--black);
+    padding-bottom: 48px;
+}
+
+.lista_pagina_ind {
+    list-style: disc;
+    padding-left: 20px;
+    padding-bottom: 48px;
+}
+
+.lista_pagina_ind li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: var(--black);
+}
+
+.logos_pagina_ind {
+    display: flex;
+    margin-bottom: 48px;
+    gap: 32px;
+    height: 24px;
+}
+
+.divisor_texto {
+    background-color: var(--neutral20);
+    height: 1px;
+    margin-bottom: 48px;
+}
+
+.link_pagina_ind {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: var(--PrimaryBlue);
+}
+
+@media(max-width: 700px) {
+    .chamada_banner_elementos {
+        display: flex;
+        margin-bottom: 24px;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner_elementos {
+        align-items: flex-start;
+    }
+    .banner {
+        background: var(--neutral10);
+        height: 400px;
+    }
+    .imagem_banner {
+        width: 120px;
+        height: 120px;
+        margin-right: 25px;
+    }
+    .empresa_vaga .cargo_banner {
+        font-size: 20px;
+    }
+}

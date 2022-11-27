@@ -1,0 +1,61 @@
+.bloco_1 {
+    background: var(--neutral10);
+    padding: 115px 144px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.bloco_1 .bloco_1_textos h1 {
+    color: var(--PrimaryBlue);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    margin-bottom: 24px;
+}
+
+.bloco_1 .bloco_1_textos h2 {
+    color: var(--neutral30);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 19px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.search {
+    align-items: center;
+    background: var(--white);
+    border-radius: 5px;
+    display: flex;
+    padding: 24px 24px;
+}
+
+.search img {
+    height: 24px;
+    width: 24px;
+    margin-right: 16px;
+}
+
+.search h3 {
+    color: var(--black);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 19px;
+    margin-right: auto;
+}
+
+.search .botao_primario {
+    background: var(--PrimaryBlue);
+    border-radius: 5px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+}

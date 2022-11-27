@@ -1,0 +1,233 @@
+.botao_filtro {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search_section2 {
+    max-width: 1024px;
+    padding: 0 40px;
+    margin: auto;
+}
+
+.filtro {
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #3369F6;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 16px;
+    margin-bottom: 48px;
+    width: 120px;
+}
+
+.filtro a {
+    color: #3369F6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.resultados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.resultados .resultado {
+    width: 26%;
+    padding: 24px;
+    background: var(--white);
+    box-shadow: 0px 20px 25px rgba(181, 181, 181, 0.2);
+    border-radius: 5px;
+}
+
+.empresa {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.empresa_imagem1 {
+    background-image: url(../img/globo.png);
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+.empresa_imagem2 {
+    background-image: url(../img/next.png);
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+.empresa_imagem3 {
+    background-image: url(../img/americanas.png);
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+.empresa_imagem4 {
+    background-image: url(../img/mutant.png);
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+.empresa_imagem5 {
+    background-image: url(../img/ambev.png);
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+.empresa_imagem6 {
+    background-image: url(../img/evermart.png);
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+.empresa_imagem7 {
+    background-image: url(../img/soft.png);
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+.empresa_imagem8 {
+    background-image: url(../img/ilegra.png);
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+.empresa_imagem9 {
+    background-image: url(../img/zallpy.png);
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+.empres_nome {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: var(--neutral30);
+}
+
+.vaga .titulo {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: var(--black);
+}
+
+.vaga .cidade {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: var(--neutral30);
+    margin-bottom: 24px;
+}
+
+.tag {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.tag .tag_1 {
+    background: #F3F6FF;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+.tag .tag_1 {
+    color: var(--PrimaryBlue);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 12px;
+}
+
+.tag .tag_2 {
+    background: #F3F6FF;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+}
+
+.tag .tag_2 {
+    color: var(--PrimaryBlue);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 12px;
+}
+
+.descricao_texto_resultado {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: var(--black);
+    margin-bottom: 24px;
+}
+
+.descricao_data_resultado {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+    color: var(--neutral30);
+    margin-bottom: 24px;
+}
+
+.botao_detalhes {
+    padding: 16px;
+    color: var(--white);
+    background: #3369F6;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media(max-width: 700px) {
+    .bloco_1 {
+        padding: 40px 40px;
+        ;
+    }
+    .bloco_1 .bloco_1_textos h1 {
+        font-size: 20px;
+    }
+    .bloco_1 .bloco_1_textos h2 {
+        font-size: 14px;
+    }
+    .resultados {
+        flex-direction: column;
+    }
+    .resultados .resultado {
+        width: 100%;
+    }
+}

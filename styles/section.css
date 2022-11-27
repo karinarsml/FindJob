@@ -1,0 +1,111 @@
+.container_2 {
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_2-delim {
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 144px;
+    padding-top: 37px;
+    gap: 40px;
+}
+
+.container_2_textos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 57px;
+    max-width: 482px;
+}
+
+.container_2_img {
+    max-width: 419px;
+}
+
+.container_2_textos h1 {
+    color: var(--PrimaryBlue);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.container_2_textos h2 {
+    color: var(--neutral30);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.container_2_textos .botao_primario {
+    background: var(--PrimaryBlue);
+    border-radius: 5px;
+    color: var(--white);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 133px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    padding: 30px;
+}
+
+.logo_idv {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    overflow-x: hidden;
+    flex-flow: column wrap;
+    margin-top: 48px;
+}
+
+@media screen and (min-width: 1024px) {
+    .logos {
+        padding: 0;
+    }
+}
+
+@media(max-width: 999px) {
+    .logos {
+        justify-content: space-between;
+    }
+    .container_2_textos h1 {
+        font-size: 32px;
+    }
+    .container_2_img {
+        height: 250px;
+    }
+    .container_2-delim {
+        padding: 50px 40px;
+        align-items: center;
+    }
+    .logo_idv {
+        height: 25px;
+    }
+}
+
+@media(max-width: 700px) {
+    .container_2_textos h1 {
+        font-size: 32px;
+    }
+    .container_2_img {
+        height: 300px;
+    }
+    .container_2-delim {
+        gap: 10px;
+        padding: 50px 40px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}

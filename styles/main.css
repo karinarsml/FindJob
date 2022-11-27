@@ -1,0 +1,32 @@
+@import './header.css';
+@import './section.css';
+@import './section_2.css';
+@import './section_3.css';
+@import './section_4.css';
+@import './bloco_1.css';
+@import './globo.css';
+@import './rodape.css';
+@import './search_section2.css';
+:root {
+    --PrimaryBlue: #3369F6;
+    --Spectrum-lightBlue: #F3F6FF;
+    --white: #FFF;
+    --neutral10: #f5f5f5;
+    --neutral20: #b1b1b1;
+    --neutral30: #515151;
+    --black: #050505;
+    --fonte: 'Raleway', sans-serif;
+    --heading1: 48px;
+    --width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: all 1s!important;
+}
+
+body {
+    font-family: var(--fonte) !important;
+    overflow-x: hidden;
+    transition: all 1s!important;
+}
